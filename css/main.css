@@ -1,0 +1,137 @@
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html, body {
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+    background: #EEE url('../img/bg.png') top left repeat;
+    font-family: 'Titillium Web', sans-serif;
+    color: #555;
+    overflow: hidden;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+#outer {
+    width: 100%;
+    top: 0
+    left: 0;
+    min-width: 800px;
+    height: 96%;
+    min-height: 96%;    
+}
+
+#inner {
+    margin: 50px auto 0 auto;
+    width: 800px;
+    height: 100%;
+    text-align: center;
+    min-width: 800px;
+}
+
+h1 { margin-top: 50px; }
+
+h1, .headline {
+    font-size: 1.5em;
+}
+
+p {
+    font-size: 1em;
+}
+
+footer {
+    width: 100%;
+    height: 4%;
+    position: absolute;
+    min-height: 3em;
+    margin-top: -62px;
+}
+
+footer p {
+    display: block;
+    text-align: center;
+    min-height: 4em;
+    padding: 0;
+    margin: 0;
+}
+
+a:link {color: #2288EE; text-decoration: none; }
+a:active {color: #2288EE; text-decoration: underline; }
+a:visited {color: #2288EE; text-decoration: underline; }
+a:hover {color: #2288EE; text-decoration: underline; }
+
+@media (max-width: 800px) {
+
+    #outer {
+        width: 100%;
+        height: 96%;
+        top: 0
+        left: 0;
+        min-width: 200px;
+        background-size: 50px;
+    }
+
+    #inner {
+        margin: 50px auto 0 auto;
+        width: 300px;
+        height: 100%;
+        text-align: center;
+        min-width: 300px;
+    }
+
+    #inner img {
+        max-width: 100%;
+    }
+
+    h1 { margin-top: 50px; }
+
+    h1, .headline {
+        font-size: 0.9em;
+    }
+
+    p {
+        font-size: 0.75em;
+    }
+
+}
