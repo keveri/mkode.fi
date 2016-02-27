@@ -15,7 +15,7 @@ body {
     font-size: 1em;
     line-height: 1.4;
     background: #EEE url('../img/bg.png') top left repeat;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: sans-serif;
     color: #555;
     overflow: hidden;
 }
